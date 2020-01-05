@@ -14,3 +14,7 @@ def input_to_index(user_input)
   #   converted_input = -1
   # end
 end
+
+def move(array, index, player)
+  array[index] = player
+end
