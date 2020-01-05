@@ -11,3 +11,5 @@ display_board(board)
 
 user_input = gets.strip
 input_to_index(user_input)
+
+move(board, input_to_index(user_input), player = "X")
